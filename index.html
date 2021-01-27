@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <!-- Fontawsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+  <div class="section">
+    <header class="section__top">
+      <h1 class="section__top--text">
+        Todo List
+      </h1>
+      <form class="section__text--search">
+        <input type="text" class="section__text--search--input" name="search" placeholder="Search">
+      </form>
+    </header>
+
+    <ul class="section__list"></ul>
+
+    <form class="section__text--add">
+      <label class="section__text--add--label">Add</label>
+      <input type="text" class="section__text--add--input" name="add" placeholder="Tasktext">
+    </form>
+  </div>
+
+  <script src="dist/sample.js"></script>
+</body>
+</html>

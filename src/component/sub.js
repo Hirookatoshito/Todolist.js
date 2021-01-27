@@ -1,0 +1,1 @@
+export const addTask = document.querySelector('.section__text--add');
